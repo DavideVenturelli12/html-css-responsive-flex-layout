@@ -80,6 +80,33 @@ header img{
     height: 35px;
 }
 
+nav{
+    display: none;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+li button{
+    background-color: white;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
 /*** / header ***/
 
 /*** main ***/
@@ -133,13 +160,6 @@ h1{
 .violet{
     text-align: center;
     padding-bottom: 20px;
-}
-
-.green, 
-.salmon, 
-.yellow, 
-.violet i{
-    margin-bottom: 20px;
 }
 
 .green{
@@ -254,7 +274,7 @@ h2{
 /*benefits*/
 
 #benefits h1{
-    text-align: center;
+    margin: 0px 15%;
     padding: 0px 10%;
 }
 
