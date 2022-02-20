@@ -10,20 +10,62 @@ body{
     font-family: 'Advent Pro', sans-serif;
 }
 
+p{
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.freepik{
+    text-align: center;  
+    margin-top: 30px; 
+}
+
+.black{
+    color: black;
+}
+
+.bg-violet{
+    padding: 20px 10%;
+    margin-top: 40px;
+    color: white;
+    background-color: rgb(193, 168, 240);
+}
+
+.violet-text h1{
+    color: rgb(193, 168, 240);
+}
+
 /* utilities */
+
+button:active{
+    transform: scale(0.9);
+}
+
+.immagine{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
 
 
 /*** header ***/
 
 header{
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 10px 10%;
+    margin-bottom: 30px;
     color: white;
-    font-size: 25px;
-    font-weight: 700;
     background-color: rgb(73, 168, 247);
 }
 
@@ -34,10 +76,322 @@ header button{
     color: white;
 }
 
-header button:active{
-    transform: scale(0.8);
+header img{
+    height: 35px;
 }
 
-
-
 /*** / header ***/
+
+/*** main ***/
+
+/*card-container*/
+
+#card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 80%;
+    margin: 25px;
+    padding: 5% 5% 0px;
+    border-radius: 20px;
+}
+
+.light-blue{
+    background-color: rgb(163, 234, 255);
+    color: rgb(73, 168, 247);
+}
+
+.light-blue img{
+    width: 80%;
+    height: auto;
+    margin: 0px 10%;
+}
+
+h1{
+    font-size: 30px;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+.light-blue button{
+    padding: 10px 30px;
+    margin: 20px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    background-color: rgb(73, 168, 247);
+}
+
+.green, 
+.salmon, 
+.yellow, 
+.violet{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.green, 
+.salmon, 
+.yellow, 
+.violet i{
+    margin-bottom: 20px;
+}
+
+.green{
+    background-color: rgb(169, 248, 211);
+    color: rgb(81, 155, 87);
+}
+
+.salmon{
+    background-color: rgb(248, 190, 172);
+    color: rgb(156, 60, 84);
+}
+
+.yellow{
+    background-color: rgb(255, 237, 154);
+    color: rgb(224, 159, 72);
+}
+
+.violet{
+    background-color: rgb(234, 213, 248);
+    color: rgb(181, 142, 189);
+}
+
+#card-container a{
+    color:black
+}
+
+/*strategic*/
+
+/*/card-container*/
+
+#strategic img{
+    width: 80%;
+    margin: 20px 10% 30px;
+}
+
+#app-development{
+    width: 100%;
+    margin: 30px 0px;
+    padding: 20px 15px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+#strategic a{
+    color: white; 
+}
+
+#strategic .freepik{
+    text-align: left;
+}
+
+#app-development i{
+    margin-top: 15px;
+    color: rgb(193, 168, 240);
+}
+
+/*/strategic*/
+
+/*testimonials*/
+
+#testimonials{
+    text-align: center;
+    padding: 40px 10%;
+}
+
+#testimonials h2{
+    font-size: 20px;
+}
+
+.bg-shanks{
+    background-image: url(../img/shanks.jpg);
+}
+
+.bg-kaido{
+    background-image: url(../img/kaido.png);
+}
+
+.bg-teach{
+    background-image: url(../img/marshall\ d\ teach.jpg);
+}
+
+.testimonials-card{
+    padding: 20px 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.testimonials-card p{
+    margin: 20px 0px;
+}
+
+.shanks{
+    background-color: rgb(248, 190, 172);
+}
+
+.kaido{
+    background-color: rgb(255, 237, 154);
+}
+
+.teach{
+    background-color: rgb(169, 248, 211);
+}
+
+/*/testimonials*/
+
+/*benefits*/
+
+#benefits h1{
+    text-align: center;
+    padding: 0px 10%;
+}
+
+.benefits-card{
+    margin-top: 20px;
+    padding: 20px 15px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.benefits-card h2{
+    color: rgb(193, 168, 240);
+}
+
+.benefits-card p{
+    color: black;
+}
+
+.benefits-card button{
+    background-color: rgb(193, 168, 240);
+    border: 0;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/*/benefits*/
+
+/*about us*/
+
+#about-us{
+    padding: 30px 10% 50px;
+}
+
+#about-us p{
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+#about-us h2{
+    color: rgb(193, 168, 240);
+    margin: 20px 0px 10px;
+}
+
+.bg-roger{
+    position: relative;
+    margin-left: 0px;
+    background-image: url(../img/Gol-D-Roger.jpg);
+}
+
+.bg-roger i{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    color: rgb(193, 168, 240);
+}
+
+#about-us button{
+    background-color: rgb(193, 168, 240);
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+
+}
+
+/*/about us*/
+
+/*** /main ***/
+
+/*** footer ***/
+
+/*get-started*/
+
+#get-started{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#get-started h3{
+    color: lightgrey;
+    margin-bottom: 15px;
+}
+
+#get-started h2{
+    font-size: 30px;
+}
+
+#get-started h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: rgb(233, 202, 99);
+}
+
+#get-started button{
+    color: rgb(193, 168, 240);
+    border: 0;
+    border-radius: 30px;
+    padding: 15px 60px;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+#get-started a{
+    color: white;
+}
+
+#copyright{
+    font-size: 14px;
+}
+
+/*/get-started*/
+
+/*get-started*/
+
+#bg-black{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 10%;
+}
+
+#bg-black p{
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+#bg-black span{
+    font-size: 12px;
+}
+
+#bg-black a{
+    color: rgb(193, 168, 240);
+}
+
+/*/get-started*/
+
+/*** /footer ***/
