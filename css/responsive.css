@@ -30,7 +30,7 @@
     }
 
     .light-blue{
-        width: 65%;
+        width: 66%;
         margin: 0px;
     }
 
@@ -39,19 +39,20 @@
     .salmon, 
     .yellow, 
     .violet{
-        width: 30%;
+        width: 32%;
         margin: 0px;
     }
 
     .green{
-        height: 620px;
+        height: 100%;
+        padding-bottom: 38%;
     }
 
     .salmon, 
     .yellow, 
     .violet{
         height: 400px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .freepik{
@@ -88,7 +89,6 @@
     }
 
     .immagine{
-        width: 90%;
         margin-right: 40px;
     }
 
@@ -207,7 +207,7 @@
 
     .green{
         width: 32%;
-        height: 385px;
+        padding-bottom: 8%;
     }
 
     .salmon,
@@ -259,10 +259,6 @@
 
     #testimonials-info{
         padding: 0px 50px;  
-    }
-
-    .immagine{
-        width: 85%;
     }
 
     /*/testimonials*/

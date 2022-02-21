@@ -41,20 +41,10 @@ button:active{
     transform: scale(0.9);
 }
 
-.immagine{
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    text-align: center;
-    line-height: 200px;
-    font-size: 40px;
-    color: black;
-    border: 2px solid black;
+.immagine img{
+    height: 180px;
     border-radius: 50%;
-    background-size: cover;
-    background-position: center;
 }
-
 
 /*** header ***/
 
@@ -233,18 +223,6 @@ h2{
 
 #testimonials h2{
     font-size: 20px;
-}
-
-.bg-shanks{
-    background-image: url(../img/shanks.jpg);
-}
-
-.bg-kaido{
-    background-image: url(../img/kaido.png);
-}
-
-.bg-teach{
-    background-image: url(../img/marshall\ d\ teach.jpg);
 }
 
 .testimonials-card{
