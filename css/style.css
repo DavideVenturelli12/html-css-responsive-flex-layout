@@ -298,17 +298,9 @@ h2{
     margin: 20px 0px 10px;
 }
 
-.bg-roger{
-    position: relative;
-    margin-left: 0px;
-    background-image: url(../img/Gol-D-Roger.jpg);
-}
-
-.bg-roger i{
-    position: absolute;
-    top: -20px;
-    right: -10px;
-    color: rgb(193, 168, 240);
+.roger{
+    width: auto;
+    margin-left: 0px;  
 }
 
 #about-us button{
@@ -317,7 +309,6 @@ h2{
     border: 0;
     color: white;
     border-radius: 5px;
-
 }
 
 /*/about us*/
